@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background: #fafafa;
+	padding: 2rem;
+	font-family: 'Open Sans', Arial, sans-serif;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+.content {
+	background: #fff;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.survey-form p {
+	margin: 0 0 2rem;
+	font-weight: 600;
+}
+
+.survey-answers {
+	list-style: none;
+}
+
+.survey-answers li + li {
+	margin: .5rem 0 0;
+}
+
+.survey-answers input {
+	margin: 0 .5rem 0 0;
+}
+
+.survey-button {
+	text-align: center;
+	margin: 2rem 0 0;
+}
+
+.survey-description {
+	text-align: center;
+	margin: 2rem 0 0;
+	font-weight: 600;
+}
+
+.survey-chart {
+	margin-right: 2rem;
+}
+
+.survey-chart div {
+	font: 16px sans-serif;
+	background-color: #3895ff;
+	text-align: right;
+	padding: 5px;
+	margin: 1px;
+	color: white;
+	font-size: 14px;
+	min-width: 10%;
+	white-space: nowrap;
+	position: relative;
+}
+
+.survey-chart strong {
+	position: absolute;
+	left: 100%;
+	color: #000;
+	display: block;
+	padding-left: .5rem;
+	top: .4rem;
+}
+
+.survey-button input {
+	background: #3895ff;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: .5rem 1rem;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+	html {
+		font-size: 14px;
+	}
+
+	body {
+		padding: 1rem;
+	}
+
+	.content {
+		padding: 1rem;
+	}
+}

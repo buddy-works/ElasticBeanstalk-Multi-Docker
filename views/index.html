@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="style.css">
+	<title>Question</title>
+</head>
+<body>
+<div class="content">
+	<form action="results" method="post" class="survey-form">
+		<p>what do you build</p>
+
+		<ul class="survey-answers">
+			<li><label><input type="radio" name="tech" value="node">Node.js</label></li>
+			<li><label><input type="radio" name="tech" value="java">Java</label></li>
+			<li><label><input type="radio" name="tech" value="dotnet">.NET</label></li>
+		</ul>
+		
+
+		<div class="survey-button">
+			<input type="submit" value="Vote">
+		</div>
+		</br>
+		<p>redis version {{rv}}</p>
+	</form>
+</div>
+</body>
+</html>
